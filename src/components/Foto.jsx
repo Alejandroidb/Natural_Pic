@@ -27,8 +27,8 @@ const Foto = ({ photo }) => {
           onClick={() => agregarLiked(photo.id)}
           src={
             photo.liked
-              ? "./src/assets/icons/heart-filled.svg"
-              : "./src/assets/icons/heart.svg"
+              ? "/src/assets/icons/heart-filled.svg"
+              : "/src/assets/icons/heart.svg"
           }
           alt=""
           className="position-absolute top-0 end-0 corazon"
