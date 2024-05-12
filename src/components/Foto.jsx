@@ -16,7 +16,7 @@ const Foto = ({ photo }) => {
     });
 
     setPhotos(photoLiked);
-    console.log(photoLiked);
+    // console.log(photoLiked);
   };
 
   return (
