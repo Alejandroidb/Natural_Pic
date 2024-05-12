@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import photoBook from "../../public/photos.json";
+import photoBook from "../assets/json/photos.json";
 
 export const PhotoContext = createContext();
 
