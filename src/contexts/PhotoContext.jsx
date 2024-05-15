@@ -8,11 +8,15 @@ const PhotosProvider = ({ children }) => {
 
   useEffect(() => {
     const { photos = [] } = { ...photoBook };
-    setPhotos(photos)
+    setPhotos(photos);
     //console.log(photos)
   }, []);
-  const contextValue = {photos, setPhotos};
-  return <PhotoContext.Provider value={contextValue}>{children}</PhotoContext.Provider>;
+  const contextValue = { photos, setPhotos };
+  return (
+    <PhotoContext.Provider value={contextValue}>
+      {children}
+    </PhotoContext.Provider>
+  );
 };
 
 export default PhotosProvider;

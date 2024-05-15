@@ -21,13 +21,13 @@ const Foto = ({ photo }) => {
 
   return (
     <div className="col-md-3">
-      <div className="card position-relative">
+      <div className="card position-relative mt-1 mb-1">
         <img src={photo.src.tiny} alt="" className="img-fluid" />
         <img
           onClick={() => agregarLiked(photo.id)}
           src={
             photo.liked
-              ? "/src/assets/icons/heart-filled.svg"
+              ? "public/heart-filled.svg"
               : "/src/assets/icons/heart.svg"
           }
           alt=""

@@ -18,9 +18,14 @@ const Navigation = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav text-center">
             <li className="nav-item">
-              <Link to="Favoritas" className="nav-link active navbar-brand text-light" aria-current="page" href="#">
+              <Link
+                to="Favoritas"
+                className="nav-link active navbar-brand text-light"
+                aria-current="page"
+                href="#"
+              >
                 Favoritas
               </Link>
             </li>
